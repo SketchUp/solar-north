@@ -104,7 +104,7 @@ module Trimble
 
       # @see https://ruby.sketchup.com/Sketchup/Tool.html
       def getInstructorContentDirectory
-        "su_solarnorth/instructors/#{self.class.tool_id}.html"
+        "#{EXTENSION_ROOT}/instructors/#{self.class.tool_id}.html"
       end
     end
   end
