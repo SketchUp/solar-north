@@ -1,5 +1,7 @@
 # Solar North
 
+![Screenshot](screenshot.png)
+
 Display and set the solar north angle used for shadows. Useful for shadow studies.
 
 ## UX Example
