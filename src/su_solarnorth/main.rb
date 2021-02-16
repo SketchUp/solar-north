@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 Sketchup.require "su_solarnorth/north_tool"
-Sketchup.require "su_solarnorth/dialog"
 Sketchup.require "su_solarnorth/ui_helper"
 
 module Trimble
@@ -52,13 +51,11 @@ module Trimble
       toolbar = UI::Toolbar.new("Solar North")
       toolbar.add_item(display_command)
       toolbar.add_item(NorthTool.command)
-      toolbar.add_item(SolarNorthDialog.command)
       toolbar.restore
 
       menu = UI.menu("Plugins").add_submenu("Solar North")
       menu.add_item(display_command)
       menu.add_item(NorthTool.command)
-      menu.add_item(SolarNorthDialog.command)
     end
   end
 end
