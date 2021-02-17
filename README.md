@@ -4,7 +4,7 @@ Display and set the solar north angle used for shadows. Useful for shadow studie
 
 ## UX Example
 
-This extension also serves as a code example for SktchUp-like UX design, e.g.:
+This extension also serves as a code example for SketchUp-like UX design, e.g.:
 
 * Showing toolbar button/menu entry as checked when a tool is active,
 * Handling toolbar button/menu entry icons for different systems and SketchUp versions,
