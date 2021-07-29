@@ -145,9 +145,9 @@ module Trimble
 
         Sketchup.status_text =
             if @state == PLACE_STATE
-              "Select north reference point."
+              "Place compass."
             else
-              "Select north direction."
+              "Set north direction."
             end
 
         Sketchup.vcb_label = "Angle"
