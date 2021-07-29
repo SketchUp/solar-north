@@ -9,6 +9,8 @@ module Trimble
     # Subclass to use in your own tool.
     # Call `super` in `activate` and `deactivate` for `active?` to function.
     class GenericTool
+      @active_tool = nil
+
       # Activate tool.
       #
       # Call on subclasses of {GenericTool}.
